@@ -13,7 +13,7 @@
 }
 
 #right-eye {
-  animation: crazy-eyes 2s ease infinite;
+  animation: crazy-eyes 1s ease infinite;
 }
 
 @keyframes crazy-eyes {
