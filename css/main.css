@@ -1,0 +1,29 @@
+.face:hover #left-ear {
+  transform: translate(0, -10px);
+  transition: all .5s linear;
+}
+
+.face:hover #right-ear {
+  transform: translate(0, -10px);
+  transition: all .5s linear;
+}
+
+#left-eye {
+  animation: crazy-eyes 2s ease infinite;
+}
+
+#right-eye {
+  animation: crazy-eyes 2s ease infinite;
+}
+
+@keyframes crazy-eyes {
+
+  50% {
+    transform: translateX(5px);
+  }
+
+  100% {
+    transform: translate(-5px);
+  }
+
+}
